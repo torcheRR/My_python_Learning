@@ -16,7 +16,7 @@ if height>=120:
     elif age>=45 and age<=55:
         print("You have a free ride on us!!")
     wants_photo=(input("Do you want a photo taken? Y or N. \n"))
-    if wants_photo=="Y" :
+    if wants_photo.lower()=="y" :
         bill+=3
     print(f"Your final bill is ${bill}")
 else:
