@@ -37,5 +37,5 @@ if (your_choice==2 and computer_choise==1) or (your_choice==0 and computer_chois
     print("You lose!")
 elif your_choice==computer_choise:
     print("Draw!")
-elif (your_choice==2 and computer_choise==0) or (your_choice==0 and computer_choise==2) or (your_choice==1 and computer_choise==0):
+elif (your_choice==2 and computer_choise==1) or (your_choice==0 and computer_choise==2) or (your_choice==1 and computer_choise==0):
     print("You win!")
